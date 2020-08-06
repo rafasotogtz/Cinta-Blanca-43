@@ -12,6 +12,7 @@ let respuestaTelefono = document.getElementById('respuestaTelefono')
 let respuestaPizza = document.getElementById('respuestaPizza')
 
 
+
 const ordenar = () => {
 
 
@@ -23,3 +24,9 @@ const ordenar = () => {
 }
 
 btn.addEventListener('click', ordenar)
+
+// if(pregunta === password) {
+//     console.log('Bienvenido')
+// }else {
+//     console.log('Intentalo de nuevo')
+// }
